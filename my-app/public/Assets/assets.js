@@ -431,7 +431,7 @@ export const projects = [
   {
     no:'06',
     title:'UDAYANA ROBLOX',
-    desc: 'A roblox experience set in Udayana University',
+    desc: 'A roblox game set in Udayana University',
     img1: '',
     img2: '',
     img3: '',

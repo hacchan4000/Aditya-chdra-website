@@ -9,7 +9,7 @@ const Page2 = () => {
   return (
     <div className='bg-black'>
       
-      <div className="relative top-3  w-full overflow-hidden py-6 z-10 bg-black -rotate-3 ">
+      <div className="relative top-0 sm:top-3  w-full overflow-hidden py-6 z-10 bg-black -rotate-3 ">
               {/* My Skills */}
               <div className='flex space-x-16 overflow-hidden'>
                 <div className="flex space-x-16 animate-loop-scroll bg-black">

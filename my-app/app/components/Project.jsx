@@ -17,7 +17,7 @@ const Project = ({no, title, desc, link}) => {
             
           </div>
 
-          <button onClick={lihatProyek} className="bg-black border-2 border-white rounded-full py-2 px-6 text-sm sm:text-base cursor-pointer hover:bg-white hover:text-black transition-all duration-300 self-start sm:self-center">
+          <button onClick={lihatProyek} className="bg-black border-2 my-2 border-white rounded-full py-2 px-6 text-sm sm:text-base cursor-pointer hover:bg-white hover:text-black transition-all duration-300 self-start sm:self-center">
                 Live Project
           </button> 
         </div>

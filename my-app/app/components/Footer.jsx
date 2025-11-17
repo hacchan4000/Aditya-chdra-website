@@ -4,7 +4,7 @@ import { assets, icons } from "@/public/Assets/assets";
 
 const Footer = () => {
   return (
-    <div className="absolute w-full h-30 bg-black rounded-2xl justify-around">
+    <div className="absolute w-full h-95 bg-black rounded-2xl justify-around overflow-hidden">
       <div className="relative flex items-center justify-between mx-5 bg-black">
         
         {/* Logo / Text */}
@@ -12,7 +12,7 @@ const Footer = () => {
           <Image
             src={assets.TextFooter}
             alt="adit"
-            className="w-110 px-8 ml-10"
+            className="w-full px-8 ml-10"
           />
         </div>
 

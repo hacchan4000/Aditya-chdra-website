@@ -9,7 +9,7 @@ const Page1 = () => {
     window.open('https://wa.me/+6282236012023', '_blank');
   };
   return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-black text-white flex items-center justify-center">
+    <div className=" relative w-full h-140 sm:min-h-screen overflow-hidden bg-black text-white flex-col items-center justify-center">
       
       {/* 🧱 Background Text */}
       <h1
@@ -51,25 +51,25 @@ const Page1 = () => {
       {/* 📝 Description Text */}
       <div
         className="
-          absolute leading-none  left-15 sm:left-10 md:left-10 lg:left-20 bottom-[250px] sm:bottom-70 md:bottom-60 lg:bottom-40 xl:bottom-30 2xl:bottom-25
-          max-w-[100px] sm:max-w-[200px] md:max-w-[230px] z-10
+          absolute top-50 leading-none left-2 sm:left-10 md:left-10 lg:left-20 bottom-[250px] sm:bottom-70 md:bottom-60 lg:bottom-40 xl:bottom-30 2xl:top-80
+          max-w-20 sm:max-w-[200px] md:max-w-[230px] z-10
         "
       >
-        <p className="text-[10px] sm:text-sm md:text-base leading-relaxed text-gray-200 animasiTeks">
+        <p className=" text-[8px] sm:text-sm md:text-base leading-relaxed text-gray-200 animasiTeks">
           I'm a Computer Science student from Udayana University with a deep understanding of
           various programming languages—especially Python, Java, and C. I focus on Big Data Analytics
           and ML engineering while also possessing web development skills (UI/UX & front-end). 
           
         </p>
 
-        <p className='animasiTeks mt-10 text-[10px] sm:text-sm md:text-base'> below is the software i've used and my certificates</p>
+        <p className='animasiTeks mt-10 text-[8px] sm:text-sm md:text-base'> below is the software i've used and my certificates</p>
       </div>
 
       {/* 📞 Contact Button */}
       <div
         className=" animasiTeks
-          absolute right-8 sm:right-12 md:right-20 lg:right-32 xl:right-40 2xl:right-52
-          bottom-[390px] sm:bottom-100 md:bottom-90 lg:bottom-80 xl:bottom-70 2xl:bottom-60
+          absolute right-0 justify-center sm:right-12 md:right-20 lg:right-32 xl:right-40 2xl:right-52
+          top-80 sm:bottom-100 md:bottom-90 lg:bottom-80 xl:bottom-70 2xl:bottom-60
           z-30
         "
       >
