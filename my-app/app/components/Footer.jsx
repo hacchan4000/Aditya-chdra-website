@@ -12,7 +12,7 @@ const Footer = () => {
           <Image
             src={assets.TextFooter}
             alt="adit"
-            className="w-full px-5 "
+            className="w-[100px] sm:w-[500px] px-5 "
           />
         </div>
 
