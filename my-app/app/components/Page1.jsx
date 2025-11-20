@@ -78,7 +78,7 @@ const Page1 = () => {
         >
           <span className="
             text-[12px] sm:text-[18px] md:text-[20px] lg:text-[25px] xl:text-[28px] 2xl:text-[32px]
-            font-semibold
+            font-semibold font-mohave
           ">
             Contact Me
           </span>

@@ -8,6 +8,8 @@
   font-style: normal;
 }
 h1, .mohave { font-family: var(--mohaveBold); font-weight: 700; }
+p, .mohave { font-family: var(--mohaveBold); font-weight: 700; }
+a, .mohave { font-family: var(--mohaveBold); font-weight: 700; }
 
 
 :root {
