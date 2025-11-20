@@ -43,7 +43,7 @@ const Page7 = () => {
       <div className="w-full h-10 bg-black rounded-b-4xl"></div>
 
       {/* Main section */}
-      <div className="relative flex flex-col md:flex-row justify-baseline items-center md:items-start px-6 md:px-30 py-12">
+      <div className="relative flex flex-col md:flex-row justify-baseline items-center md:items-start px-6 md:px-30 py-12 mb-10">
         
         {/* Left images (hidden on small screens to save space) */}
         <div className="relative hidden md:flex flex-col">

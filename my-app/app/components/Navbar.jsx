@@ -45,6 +45,7 @@ const navbar = () => {
             <li><a href="#about" onClick={closeMobileMenu}>ABOUT</a></li>
             <li><a href="#experience" onClick={closeMobileMenu}>EXPERIENCE</a></li>
             <li><a href="#project" onClick={closeMobileMenu}>PROJECTS</a></li>
+            <li><a href="#connect" onClick={closeMobileMenu}>CONTACTS</a></li>
         </ul>
       </nav>
     </>

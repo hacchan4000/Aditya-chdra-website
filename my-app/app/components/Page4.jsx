@@ -6,7 +6,7 @@ const Page4 = () => {
   return (
     <div
       id="experience"
-      className="relative w-full h-550 bg-white text-black flex flex-col items-center justify-center overflow-hidden rounded-4xl"
+      className="relative w-full h-580 bg-white text-black flex flex-col items-center justify-center overflow-hidden rounded-4xl"
     >
       <h1
         className="

@@ -344,14 +344,14 @@ export const exp = [
         id : 1,
         num:'01',
         img: '/Assets/banner1.png',
-        judul: 'GAME DEVELOPMENT',
+        judul: 'GAME DEV',
         deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
     },
     {
         id : 2,
         num:'02',
         img: '',
-        judul: 'WEB DEVELOPMENT',
+        judul: 'WEB DEV',
         deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
     },
     {

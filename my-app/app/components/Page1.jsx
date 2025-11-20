@@ -51,7 +51,7 @@ const Page1 = () => {
       {/* 📝 Description Text */}
       <div
         className="
-          absolute top-50 leading-none left-2 sm:left-10 md:left-10 lg:left-20 bottom-[250px] sm:bottom-70 md:bottom-60 lg:bottom-40 xl:bottom-30 2xl:top-80
+          absolute top-50 leading-none left-2 sm:left-10 md:left-10 lg:left-20 bottom-[250px] sm:bottom-70 md:bottom-60 lg:bottom-40 xl:bottom-30 2xl:top-100
           max-w-20 sm:max-w-[200px] md:max-w-[230px] z-10
         "
       >
@@ -69,7 +69,7 @@ const Page1 = () => {
       <div
         className=" animasiTeks
           absolute right-0 justify-center sm:right-12 md:right-20 lg:right-32 xl:right-40 2xl:right-52
-          top-80 sm:bottom-100 md:bottom-90 lg:bottom-80 xl:bottom-70 2xl:bottom-60
+          top-80 sm:bottom-100 md:bottom-90 lg:bottom-80 xl:bottom-70 2xl:top-120
           z-30
         "
       >
@@ -77,7 +77,7 @@ const Page1 = () => {
           className="tombol"
         >
           <span className="
-            text-[15px] sm:text-[18px] md:text-[20px] lg:text-[25px] xl:text-[28px] 2xl:text-[32px]
+            text-[12px] sm:text-[18px] md:text-[20px] lg:text-[25px] xl:text-[28px] 2xl:text-[32px]
             font-semibold
           ">
             Contact Me

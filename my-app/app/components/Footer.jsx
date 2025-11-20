@@ -4,25 +4,25 @@ import { assets, icons } from "@/public/Assets/assets";
 
 const Footer = () => {
   return (
-    <div className="absolute w-full h-95 bg-black rounded-2xl justify-around overflow-hidden">
-      <div className="relative flex items-center justify-between mx-5 bg-black">
+    <div className="absolute w-full h-100 bg-black rounded-2xl justify-around overflow-hidden">
+      <div className="relative flex items-center justify-between mx-2 bg-black">
         
         {/* Logo / Text */}
         <div>
           <Image
             src={assets.TextFooter}
             alt="adit"
-            className="w-full px-8 ml-10"
+            className="w-full px-5 "
           />
         </div>
 
         {/* Socials & Contacts */}
-        <div className="flex my-10 mx-10 bg-black">
+        <div className="flex my-10 bg-black sm:mx-10">
           
           {/* Socials */}
-          <div className="mx-20">
-            <h2 className="text-[min(18vw,38px)] mb-2">SOCIALS</h2>
-            <ul className="space-y-1">
+          <div className="mx-2 sm:mx-10">
+            <h2 className="text-[clamp(1rem,2vw,2rem)] mb-2">SOCIALS</h2>
+            <ul className="text-[clamp(0.5rem,1vw,1rem)] space-y-1">
               <li><a href="https://www.instagram.com/chdra.blend?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">INSTAGRAM</a></li>
               <li><a href="">TWITTER</a></li>
               <li><a href="https://www.linkedin.com/in/aditya-chandra-cs/">LINKEDIN</a></li>
@@ -31,9 +31,9 @@ const Footer = () => {
           </div>
 
           {/* Contacts */}
-          <div className="mx-10">
-            <h2 className="text-[min(18vw,38px)] mb-2">CONTACTS</h2>
-            <ul className="space-y-1">
+          <div className="">
+            <h2 className="text-[clamp(1rem,2vw,2rem)] mb-2">CONTACTS</h2>
+            <ul className="text-[clamp(0.5rem,1vw,1rem)] space-y-1">
               <li><a href="">WHATSAPP</a></li>
               <li><a href="">DISCORD</a></li>
               <li><a href="">LINE</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
         
       </div>
       
-      <div className="flex space-x-16 overflow-hidden group">
+      <div className="flex space-x-16 overflow-hidden group mt-5">
         <div className="flex space-x-20 bg-black animate-loop-scroll group-hover:paused">
           <Image src={icons.img1} alt="img" className="max-w-none h-30 w-auto object-contain"/>
           <Image src={icons.img2} alt="img" className="max-w-none h-30 w-auto object-contain"/>

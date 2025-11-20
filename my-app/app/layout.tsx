@@ -6,9 +6,10 @@ import "./globals.css";
 // layout.tsx for shared UI such as header, nav, or footer,
 const mohaveBold = Mohave({
   variable: "--mohaveBold",
-  weight: ["400", "500", "600", "700"],
+  weight: ["700"],          // request only bold if you only want bold
   subsets: ["latin"],
-})
+  display: "swap",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

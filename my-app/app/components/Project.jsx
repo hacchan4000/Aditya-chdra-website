@@ -11,8 +11,8 @@ const Project = ({no, title, desc, link}) => {
         <div className="flex flex-col sm:flex-row items-start sm:items-center sm:gap-6 justify-between">
           <h1 className="font-bold text-[50px] sm:text-[70px] -mt-2 sm:-mt-4">{no}</h1>
 
-          <div className="absolute ml-15 px-0 sm:px-5 mt-2 sm:mt-0 justify-start">
-            <h2 className="text-2xl sm:text-3xl font-bold max-w-[200px]">{title}</h2>
+          <div className="absolute ml-15 px-0 sm:px-5 mt-2 sm:mb-8 justify-start">
+            <h2 className="text-xl sm:text-3xl font-bold max-w-[200px] whitespace-nowrap">{title}</h2>
             <p className="text-gray-300 text-sm sm:text-base">{desc}</p>
             
           </div>

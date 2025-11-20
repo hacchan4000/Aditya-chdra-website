@@ -31,12 +31,12 @@ const Page6 = () => {
 
   return (
     <div className="relative w-full h-420 bg-black text-white flex flex-col items-center overflow-hidden rounded-4xl">
-      <h1 className="mt-10 mb-0 text-center font-extrabold text-[clamp(3rem,10vw,10rem)] tracking-tight">
+      <h1 className="mt-10 mb-0 text-center font-extrabold text-[clamp(5rem,10vw,10rem)] tracking-tight">
         BLOGS
       </h1>
 
       <div className="text-center">
-        <p className="mt-10 max-w-[740px] m-auto text-xs sm:text-base">
+        <p className="mt-10 w-screen m-auto text-[clamp(0.5rem,4vw,4rem)] sm:text-base">
           This is my personal blog post where I share many stories that caught my interest.
           Feel free to browse around and subscribe if you want to keep being updated.
         </p>
@@ -50,7 +50,7 @@ const Page6 = () => {
           <button
             key={cat}
             onClick={() => setMenu(cat)}
-            className={`py-1 px-4 rounded-full border-2 border-white ${
+            className={` px-1 sm:px-4 sm:py-1 text-[9px] sm:text-xl rounded-full border-2 border-white ${
               menu === cat ? "bg-white text-black" : ""
             }`}
           >
