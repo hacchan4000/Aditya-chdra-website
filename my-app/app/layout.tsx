@@ -1,9 +1,14 @@
 // root layout
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Mohave } from "next/font/google";
 import "./globals.css";
 // next js itu pake routing file sistem jd rute dalam app ku nurut sm gmn ak struktur file-filenya
 // layout.tsx for shared UI such as header, nav, or footer,
+const mohaveBold = Mohave({
+  variable: "--mohaveBold",
+  subsets: ["latin"],
+})
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
+        className={`${mohaveBold.variable} antialiased overflow-x-hidden`}
       >
         {children}
       </body>
