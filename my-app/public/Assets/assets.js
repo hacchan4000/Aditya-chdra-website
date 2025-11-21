@@ -137,20 +137,7 @@ export const data = [
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] md:h-44 lg:h-60"
             />
-            <img
-              src="https://assets.aceternity.com/templates/startup-3.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] md:h-44 lg:h-60"
-            />
+            
           </div>
         </div>
       ),
@@ -288,45 +275,45 @@ export const data = [
           </p>
           <div className="mb-8">
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
+              ✅ Solve 150+ Leetcode question
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
+              ✅ Enroll in a tech internship
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
+              ✅ Be a certified data analyst
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
+              ✅ Achieve a scholarship
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
+              ✅ Join a few comitee
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://assets.aceternity.com/pro/hero-sections.png"
+              src="/Assets/history/gambar13.png"
               alt="hero template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] md:h-44 lg:h-60"
             />
             <img
-              src="https://assets.aceternity.com/features-section.png"
+              src="/Assets/history/gambar14.png"
               alt="feature template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] md:h-44 lg:h-60"
             />
             <img
-              src="https://assets.aceternity.com/pro/bento-grids.png"
+              src="/Assets/history/gambar15.png"
               alt="bento template"
               width={500}
               height={500}
               className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset] md:h-44 lg:h-60"
             />
             <img
-              src="https://assets.aceternity.com/cards.png"
+              src="/Assets/history/gambar16.png"
               alt="cards template"
               width={500}
               height={500}
@@ -345,35 +332,37 @@ export const exp = [
         num:'01',
         img: '/Assets/banner1.png',
         judul: 'GAME DEV',
-        deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
+        deskripsi: 'My passion for gaming came from my deep love of science fiction and fantasy world, the way it alow us to escape our mortal realm.Currently i primarly developt game in roblox using roblox studio and use blender to make unique assets. Im also experienced in using other software such as Godot and Unity. See more...',
+        deskripsi2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
     },
     {
         id : 2,
         num:'02',
         img: '',
         judul: 'WEB DEV',
-        deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
+        deskripsi: 'As a computer science student it is mandatory today to be proficient in web developing. As such i am proficient in typical web dev programming languages like HTML, CSS, Javascript, PHP and proficient in various library and frameworks like Next.js, Laravel, Node.js etc. See more...',
+        deskripsi2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
     },
     {
         id : 3,
         num:'03',
         img: '',
         judul: 'DATA SCIENCE',
-        deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
+        deskripsi: 'Another field im inclined towards is Artificial inteligence, so i took it upon myself to study data science to get a grip on Machine learning concept and paradigms. In uni i also enroll in several data related competition such as satria data, datathon, etc. See more...',
     },
     {
         id : 4,
         num:'04',
         img: '/Assets/banner4.png',
         judul: 'GRAPHIC DESIGN',
-        deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
+        deskripsi: 'My love for art expresses itself in my many artworks which span my university years. While attending uni i had several gigs being a documentation member even a supervisor once. Because of that i learned many soft skills in leadership and also in a plathera of art related software like procreate, adobe ilustratror, See more...',
     },
     {
         id : 5,
         num:'05',
         img: '/Assets/banner5.png',
         judul: '3D DESIGN & ANIMATION',
-        deskripsi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat alias ad rerum adipisci, iusto hic ipsa excepturi, repudiandae earum dolore ipsam. Quia sapiente deserunt reiciendis, aperiam earum nulla nobis rem perferendis esse beatae quo dolore, pariatur enim? Expedita, nulla distinctio?',
+        deskripsi: 'I have an experience in making 3D assets for game and animation. I even enroll in a national animation competition in 2024 called GEMASTIK XV, where i made an animation called "Nawasena". Further more im proficient in using blender and looking forward to learn other 3D software suchh as maya and houdini to increase my personal value. See more...',
     }
 ]
 
@@ -382,9 +371,7 @@ export const projects = [
     no:'01',
     title:'NAWASENA',
     desc: 'My first animation for GEMASTIK XV',
-    img1: '',
-    img2: '',
-    img3: '',
+    img: '/Assets/proof/nawasena.jpg',
     link: ''
 
   },
@@ -392,9 +379,7 @@ export const projects = [
     no:'02',
     title:"ADITYA'S WORLD",
     desc: 'A 3D world i made',
-    img1: '',
-    img2: '',
-    img3: '',
+    img: '/Assets/proof/aditWrld.jpg',
     link: ''
 
   },
@@ -402,9 +387,7 @@ export const projects = [
     no:'03',
     title:'ASAH CAPSTONE',
     desc: 'ML implementation on a real world use case',
-    img1: '',
-    img2: '',
-    img3: '',
+    img: '',
     link: ''
 
   },
@@ -412,9 +395,7 @@ export const projects = [
     no:'04',
     title:'DATA ANALYTICS',
     desc: 'Description of your first project here',
-    img1: '',
-    img2: '',
-    img3: '',
+    img: '',
     link: ''
 
   },
@@ -422,9 +403,7 @@ export const projects = [
     no:'05',
     title:'THRASHWORLDSIM',
     desc: 'An idle clicker game',
-    img1: '',
-    img2: '',
-    img3: '',
+    img: '',
     link: ''
 
   },
@@ -432,9 +411,7 @@ export const projects = [
     no:'06',
     title:'UDAYANA ROBLOX',
     desc: 'A roblox game set in Udayana University',
-    img1: '',
-    img2: '',
-    img3: '',
+    img: '',
     link: ''
 
   },

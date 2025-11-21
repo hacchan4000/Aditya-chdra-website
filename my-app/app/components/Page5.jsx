@@ -15,7 +15,7 @@ const Page5 = () => {
         {/* Container must be taller than screen */}
         <div className="relative w-full flex flex-col items-center h-[650vh]">
             {projects.map((proyek, index) => {
-                return <Project key={index} no={proyek.no} title={proyek.title} desc={proyek.desc} link={proyek.link}/>
+                return <Project key={index} no={proyek.no} title={proyek.title} desc={proyek.desc} img={proyek.img} link={proyek.link}/>
             })}
 
             

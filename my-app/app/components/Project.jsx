@@ -1,6 +1,7 @@
 import React from 'react'
+import Image from 'next/image'
 
-const Project = ({no, title, desc, link}) => {
+const Project = ({no, title, desc, img, link}) => {
      const lihatProyek = ({link}) => {
        window.open(link, '_blank')
     }
@@ -23,8 +24,9 @@ const Project = ({no, title, desc, link}) => {
         </div>
 
         
-        <div className='bg-white w-full h-[80%] rounded-2xl'>
-        </div>
+
+        <Image src={img} alt='' className='w-full h-[70%] sm:h-[80%] rounded-2xl overflow-hidden' width={1300} height={800}/>
+
           
 
       
