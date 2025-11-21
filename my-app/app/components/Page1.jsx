@@ -51,7 +51,7 @@ const Page1 = () => {
       {/* 📝 Description Text */}
       <div
         className="
-          absolute top-50 leading-none left-2 sm:left-10 md:left-10 lg:left-20 bottom-[250px] sm:bottom-70 md:bottom-60 lg:bottom-40 xl:bottom-30 2xl:top-100
+          absolute top-50 leading-none left-2 sm:left-10 md:left-10 lg:left-20 bottom-[250px] sm:bottom-70 md:bottom-60 lg:bottom-40 xl:bottom-30 2xl:top-120
           max-w-20 sm:max-w-[200px] md:max-w-[230px] z-10
         "
       >
