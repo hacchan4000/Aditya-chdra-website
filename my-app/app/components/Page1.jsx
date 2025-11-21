@@ -55,7 +55,7 @@ const Page1 = () => {
           max-w-20 sm:max-w-[200px] md:max-w-[230px] z-10
         "
       >
-        <p className=" text-[8px] sm:text-sm md:text-base leading-relaxed text-gray-200 animasiTeks">
+        <p className=" text-[8px] mt-10 sm:text-sm md:text-base leading-relaxed text-gray-200 animasiTeks">
           I'm a Computer Science student from Udayana University with a deep understanding of
           various programming languages—especially Python, Java, and C. I focus on Big Data Analytics
           and ML engineering while also possessing web development skills (UI/UX & front-end). 
