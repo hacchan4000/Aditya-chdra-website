@@ -25,7 +25,7 @@ const Project = ({no, title, desc, img, link}) => {
 
         
 
-        <Image src={img} alt='' className='w-full h-[70%] sm:h-[80%] rounded-2xl overflow-hidden' width={1300} height={800}/>
+        <Image src={img} alt='idk' className='w-full h-[70%] sm:h-[80%] rounded-2xl overflow-hidden' width={1300} height={800}/>
 
           
 
