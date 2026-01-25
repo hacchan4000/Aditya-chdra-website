@@ -1,28 +1,51 @@
 'use client'
-import Navbar from "./components/Navbar"
-import Page1 from "./components/Page1"
-import Page2 from "./components/Page2"
-import Page3 from "./components/Page3"
-import Page4 from "./components/Page4"
-import Page5 from "./components/Page5"
-import Page6 from "./components/Page6"
-import Page7 from "./components/Page7"
-import Footer from "./components/Footer"
+import Navbar from "./components/ui/Navbar"
+import Page1 from "./Pages/Page1"
+import Page2 from "./Pages/Page2"
+import Page3 from "./Pages/Page3"
+import Page4 from "./Pages/Page4"
+import Page5 from "./Pages/Page5"
+import Page6 from "./Pages/Page6"
+import Page7 from "./Pages/Page7"
+import Footer from "./components/ui/Footer"
 
+import Wrapper from "./components/ui/Wrapper"
 
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <Page1 />
-    <Page2 />
-    <Page3 />
-    <Page4 />
-    <Page5 />
-    <Page6 />
-    <Page7 />
-    <Footer />
+    <Navbar /> {/* ini komponen */}
+    <main>
+      <Wrapper delay={0.2}>
+        <Page1 />
+      </Wrapper>
+
+      <Wrapper delay={0.05}>
+        <Page2 />
+      </Wrapper>
+
+      <Wrapper delay={0.1}>
+        <Page3 />
+      </Wrapper>
+      
+        <Page4 />
+
+      <Wrapper delay={0.1}>
+        <Page5 />
+      </Wrapper>
+
+      <Wrapper delay={0.1}>
+        <Page6 />
+      </Wrapper>
+
+      <Wrapper delay={0.1}>
+        <Page7 />
+      </Wrapper>
+
+    </main>
+    
+    <Footer /> {/* ini contoh komponen dlm react yg dipake untuk buat semua bagian yg dilihat user dlm sebuah app. basically komponen itu fungsi js yg ngembaliin elemen html(markup)/ jsx */}
     </>
   )
 }

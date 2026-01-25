@@ -1,7 +1,9 @@
 //page untuk navigasi
-import React, { useRef } from 'react'
+import React, { useRef, useCallback, useEffect, useState } from 'react'
 import Image from 'next/image'
-import { assets } from '../../public/Assets/assets'
+import { assets } from '../../../public/Assets/assets'
+
+
 
 const navbar = () => {
     const sideMenu = useRef();
@@ -23,7 +25,7 @@ const navbar = () => {
         <ul className='hidden md:flex items-center gap-10 lg:gap-25 rounded-full px-12 py-3 mr-15 text-[25px]'>
             <li><a href="#top">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#services">SERVICES</a></li>
             <li><a href="#project">PROJECTS</a></li>
         </ul>
         <div className='flex items-center gap-2

@@ -1,7 +1,7 @@
 //page untuk projects
 
 import React from 'react'
-import Project from './Project.jsx'
+import Project from '../components/ui/Project.jsx'
 import { projects } from '@/public/Assets/assets'
 
 

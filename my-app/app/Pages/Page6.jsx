@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from "react";
-import Blog from './Blog.jsx';
+import Blog from '../components/ui/Blog.jsx';
 import { blogs2 } from '@/public/Assets/blogs_data';
 
 const Page6 = () => {

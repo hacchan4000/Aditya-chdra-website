@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Timeline } from "./Timeline";
+import { Timeline } from "../components/ui/Timeline";
 import { data } from "@/public/Assets/assets";
 import Image from 'next/image'
 

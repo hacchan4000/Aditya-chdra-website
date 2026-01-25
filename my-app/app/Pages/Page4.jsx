@@ -5,7 +5,7 @@ import { exp } from "@/public/Assets/assets";
 const Page4 = () => {
   return (
     <div
-      id="experience"
+      id="services"
       className="relative w-full h-580 bg-white text-black flex flex-col items-center justify-center overflow-hidden rounded-4xl"
     >
       <h1
@@ -16,13 +16,13 @@ const Page4 = () => {
           tracking-tight
         "
       >
-        EXPERIENCE
+        SERVICES
       </h1>
 
       {exp.map((item, index) => (
         <Link
           href={`/experiences/${item.id}`}
-          key={index}
+          key={index} // ini supaya react tau beda satu komponen dr yang lain
           className="relative 2xl:left-20 left-5 justify-center"
         >
           <div className="card group hover:scale-105 hover:bg-white/90 transition-all duration-300 cursor-pointer flex">

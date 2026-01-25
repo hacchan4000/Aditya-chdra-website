@@ -62,7 +62,7 @@ const Page1 = () => {
           
         </p>
 
-        <p className='animasiTeks mt-10 text-[8px] sm:text-sm md:text-base'> below is the software i've used and my certificates</p>
+        <p className='animasiTeks mt-10 text-[8px] sm:text-sm md:text-base'> below is the software i've mastered and my certificates</p>
       </div>
 
       {/* 📞 Contact Button */}
