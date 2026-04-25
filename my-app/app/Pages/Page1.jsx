@@ -21,7 +21,7 @@ const Page1 = () => {
         HI, I'M ADITYA
       </h1>
 
-      {/* 🧍 Aditya Image (front layer, bottom) */}
+      {/* 🧍 Aditya Image nanti diganti samaa model beneran */}
       <div
         className="
           absolute  z-20 w-full flex justify-center top-30
