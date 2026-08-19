@@ -45,7 +45,7 @@ export default function Home() {
 
     </main>
     
-    <Footer /> {/* ini contoh komponen dlm react yg dipake untuk buat semua bagian yg dilihat user dlm sebuah app. basically komponen itu fungsi js yg ngembaliin elemen html(markup)/ jsx */}
+    <Footer /> 
     </>
   )
 }

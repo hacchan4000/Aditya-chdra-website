@@ -3,7 +3,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { skills , certificates } from '@/public/Assets/assets'
-import { div } from 'three/src/nodes/TSL.js'
 
 const Page2 = () => {
   const mySkills = () => {

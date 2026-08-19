@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Image from 'next/image'
 
 const Project = ({no, title, desc, img, link}) => {
-     const lihatProyek = ({link}) => {
-       window.open(link, '_blank')
-    }
+  const lihatProyek = ({link}) => {
+    window.open(link, '_blank')
+  }
   return (
     <>
     <div className="sticky top-30 h-150 w-[80%] md:w-[70%] bg-black rounded-3xl border-2 border-white p-5 shadow-lg shadow-white/10">
@@ -24,15 +24,10 @@ const Project = ({no, title, desc, img, link}) => {
         </div>
 
         
-
         <Image src={img} alt='idk' className='w-full h-[70%] sm:h-[80%] rounded-2xl overflow-hidden' width={1300} height={800}/>
 
           
 
-      
-        
-
-        
                
     </div>
             {/* Spacer to allow scroll */}

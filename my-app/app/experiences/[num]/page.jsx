@@ -2,14 +2,15 @@ import React, { use } from 'react';
 import Image from 'next/image';
 import { assets, exp } from '@/public/Assets/assets';
 
+// ini buat service yang aku tawarin
+// tambahin payment gateway
+
 const Page = ({ params }) => {
-  // ✅ unwrap params properly (React 19 syntax)
   const { num } = use(params); // because your folder is [num]
 
   // ✅ convert to number for comparison and emoji logic
   const numInt = parseInt(num);
 
-  // ✅ emoji switch
   const emoji = (e) => {
     switch (e) {
       case 1: return "🎮";
