@@ -1,15 +1,19 @@
 'use client'
 import React, {useEffect} from 'react'
 import {Adam} from '../components/ui/Adam.jsx'
-import { Canvas, useFrame } from '@react-three/fiber';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
 //import adam from '@/public/Assets/adam.glb'
 import { Environment, OrbitControls } from '@react-three/drei';
+
+
+
 const page = () => {
+  
   
   return (
     <div id="canvas-container" style={{width:'100vw', height:'100vw'}}>
       <Canvas camera={{
-        position: [0, 4.5, -4],
+        position: [0.89, 2.5, -5.5],
         fov: 45,
       }}
       shadows> 
@@ -25,7 +29,7 @@ const page = () => {
         castShadow
       />
       <Adam />
-      <OrbitControls />
+      <OrbitControls target={[0, 1.8, 0]}/>
         
       </Canvas>
     </div>
