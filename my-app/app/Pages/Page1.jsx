@@ -4,6 +4,11 @@ import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/public/Assets/assets'
 
+import {Adam} from '../components/ui/Adam.jsx'
+import { Canvas, useFrame } from '@react-three/fiber';
+//import adam from '@/public/Assets/adam.glb'
+import { Environment, OrbitControls } from '@react-three/drei';
+
 const Page1 = () => {
   const kotakKu = () => {
     window.open('https://wa.me/+6282236012023', '_blank');

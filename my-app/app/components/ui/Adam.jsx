@@ -2,14 +2,16 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Adam(props) {
-  const { nodes, materials } = useGLTF('/adam.glb')
+  const { nodes, materials } = useGLTF('./adam.glb')
+  console.log('ALL MATERIALS:', materials)
+  console.log('HAIR MATERIAL:', materials['Material.002'])
   return (
     <group {...props} dispose={null}>
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.badan.geometry}
-        material={materials.Material}
+        material={materials['Material.027']}
         position={[-0.034, 1.294, -0.09]}
         rotation={[-Math.PI, 1.5, -Math.PI]}
         scale={[0.517, 0.548, 0.535]}
@@ -26,10 +28,11 @@ export function Adam(props) {
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.kepala.geometry}
+        geometry={nodes.kepala.geometry} 
         material={materials['Material.027']}
         position={[-0.028, 2.552, -0.016]}
         rotation={[0, -0.025, 0.014]}
+        flatShading={false}
         scale={0.641}>
         <group
           position={[-0.378, 0.213, -0.504]}
@@ -84,7 +87,7 @@ export function Adam(props) {
           castShadow
           receiveShadow
           geometry={nodes.Cube008.geometry}
-          material={materials['Material.027']}
+          material={materials['Material.045']}
           position={[-0.528, 0.493, -0.796]}
           rotation={[-1.732, 1.211, 1.694]}
           scale={[0.043, 0.039, 0.271]}
@@ -93,7 +96,7 @@ export function Adam(props) {
           castShadow
           receiveShadow
           geometry={nodes.NurbsPath003.geometry}
-          material={materials['Material.002']}
+          material={materials['Material.045']}
           position={[0.014, 1.018, -0.357]}
           rotation={[3, 0.49, -1.894]}
           scale={[0.306, 0.268, 0.279]}
@@ -102,7 +105,7 @@ export function Adam(props) {
           castShadow
           receiveShadow
           geometry={nodes.Sphere.geometry}
-          material={materials['Material.002']}
+          material={materials['Material.045']}
           position={[0.043, 0.766, 0.204]}
           rotation={[2.719, 1.556, -2.74]}
           scale={[1.055, 0.517, 0.925]}
@@ -112,7 +115,7 @@ export function Adam(props) {
         castShadow
         receiveShadow
         geometry={nodes.lengan.geometry}
-        material={materials.Material}
+        material={materials['Material.027']}
         position={[-0.329, 1.817, -0.048]}
         rotation={[1.58, 0.133, -1.642]}
         scale={[0.138, 0.171, 0.138]}
@@ -139,7 +142,7 @@ export function Adam(props) {
         castShadow
         receiveShadow
         geometry={nodes.NurbsPath.geometry}
-        material={materials['Material.002']}
+        material={materials['Material.045']}
         position={[-0.083, 3.452, -0.452]}
         rotation={[-1.971, 0.928, 0.76]}
         scale={[-0.159, -0.115, -0.2]}
@@ -148,7 +151,7 @@ export function Adam(props) {
         castShadow
         receiveShadow
         geometry={nodes.NurbsPath002.geometry}
-        material={materials['Material.002']}
+        material={materials['Material.045']}
         position={[-0.095, 3.194, 0.631]}
         rotation={[2.952, -0.899, -2.122]}
         scale={[0.197, 0.175, 0.183]}
@@ -157,7 +160,7 @@ export function Adam(props) {
         castShadow
         receiveShadow
         geometry={nodes.NurbsPath005.geometry}
-        material={materials['Material.002']}
+        material={materials['Material.045']}
         position={[-0.102, 3.178, -0.55]}
         rotation={[0.423, 1.28, 0.761]}
         scale={[0.196, 0.172, 0.179]}
@@ -211,4 +214,4 @@ export function Adam(props) {
   )
 }
 
-useGLTF.preload('/adam.glb')
+useGLTF.preload('./adam.glb')
